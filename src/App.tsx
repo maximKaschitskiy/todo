@@ -1,6 +1,7 @@
 import React from 'react';
 import uniqid from 'uniqid';
 
+import Title from './Components/Title';
 import AddTask from './Components/AddTask';
 import TodosMap from './Components/TodosMap';
 import FilterWrapper from './Components/FilterWrapper';
@@ -79,6 +80,7 @@ const App: React.FC = () => {
 
   return (
     <Page>
+      <Title title='DailyDoings'/>
       <MainWrapper>
         <AddTask
           add={addTodo}
