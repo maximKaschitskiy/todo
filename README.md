@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/67905360/183304340-590ed114-4759-4cf7-
 React application.
 
 View on GH-pages: https://maximkaschitskiy.github.io/mindbox-test/
-  or
+
 How to run:
 
 ```
