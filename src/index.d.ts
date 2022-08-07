@@ -1,0 +1,1 @@
+declare function uniqid(prefix?: string, suffix?: string): string;
