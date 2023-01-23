@@ -2,6 +2,8 @@
 
 ### Release:
 
+https://maximkaschitskiy.github.io/todo/
+
 ### Description:
 
 https://user-images.githubusercontent.com/67905360/183304340-590ed114-4759-4cf7-a14e-2959091b201f.mp4
