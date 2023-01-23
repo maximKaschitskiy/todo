@@ -1,8 +1,8 @@
 {
-  "name": "mindbox-test",
+  "name": "todo",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://maximKaschitskiy.github.io/mindbox-test",
+  "homepage": "https://maximKaschitskiy.github.io/todo",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",

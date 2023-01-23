@@ -1,6 +1,8 @@
 import React from 'react';
 import uniqid from 'uniqid';
 
+import tasksMock from "./const/tasks.json";
+
 import Title from './Components/Title';
 import AddTask from './Components/AddTask';
 import TodosMap from './Components/TodosMap';
@@ -20,6 +22,12 @@ const App: React.FC = () => {
   const [filterSwitch, setFilter] = React.useState<boolean>(false);
   const [isEdit, setIsEdit] = React.useState<boolean>(false);
   const [editedTodo, setEditedTodo] = React.useState<TodoListType['id']>('');
+
+  const initTaskList: TodoListType[] = tasksMock.tasks;
+
+  React.useEffect(() => {
+    setTodoList(initTaskList);
+  }, []);
 
   React.useEffect(() => {
     const uncomplete = todoList.filter((todo) => !todo.completed);
